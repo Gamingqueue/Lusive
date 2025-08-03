@@ -145,7 +145,7 @@ body::after {
     font-size: 3.5rem;
     font-weight: 900;
     letter-spacing: 0.3rem;
-    color: #2763b8;
+    color: #E50914;
     text-shadow: 
         0 0 10px hsl(var(--netflix-red-bright) / 0.5),
         0 4px 8px hsl(var(--netflix-red-bright) / 0.3),
@@ -316,7 +316,7 @@ body::after {
     width: 100%;
     position: relative;
     padding: 1.25rem 2rem;
-    background: linear-gradient(135deg, hsl(var(--netflix-red-bright)), #cc0000);
+    background: linear-gradient(135deg, #2763b8, #1a406e);
     border: none;
     border-radius: 12px;
     color: hsl(var(--netflix-white));
@@ -326,12 +326,12 @@ body::after {
     cursor: pointer;
     transition: all var(--transition-medium);
     overflow: hidden;
-    box-shadow: 0 10px 30px hsl(var(--netflix-red-bright) / 0.3);
+    box-shadow: 0 10px 30px #2763b8;
 }
 
 .fetch-button:hover:not(:disabled) {
     transform: translateY(-3px);
-    box-shadow: 0 15px 40px hsl(var(--netflix-red-bright) / 0.4);
+    box-shadow: 0 15px 40px #2763b8;
 }
 
 .fetch-button:active {
