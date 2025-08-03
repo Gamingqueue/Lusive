@@ -149,8 +149,8 @@ body::after {
     text-shadow: 
         0 0 10px hsl(var(--netflix-red-bright) / 0.5),
         0 4px 8px hsl(var(--netflix-red-bright) / 0.3),
-        2px 2px 0px #B20710,
-        3px 3px 0px #8B0509;
+        2px 2px 0px #2763b8,
+        3px 3px 0px #2763b8;
     animation: logoGlow 3s ease-in-out infinite alternate;
     transition: all var(--transition-medium);
     cursor: pointer;
@@ -161,8 +161,8 @@ body::after {
     text-shadow: 
         0 0 15px hsl(var(--netflix-red-bright) / 0.8),
         0 6px 12px hsl(var(--netflix-red-bright) / 0.5),
-        2px 2px 0px #B20710,
-        3px 3px 0px #8B0509;
+        2px 2px 0px #2763b8,
+        3px 3px 0px #2763b8;
 }
 
 @keyframes logoGlow {
@@ -170,15 +170,15 @@ body::after {
         text-shadow: 
             0 0 10px hsl(var(--netflix-red-bright) / 0.5),
             0 4px 8px hsl(var(--netflix-red-bright) / 0.3),
-            2px 2px 0px #B20710,
-            3px 3px 0px #8B0509;
+            2px 2px 0px #2763b8,
+            3px 3px 0px #2763b8;
     }
     100% {
         text-shadow: 
             0 0 20px hsl(var(--netflix-red-bright) / 0.8),
             0 6px 12px hsl(var(--netflix-red-bright) / 0.6),
-            2px 2px 0px #B20710,
-            3px 3px 0px #8B0509;
+            2px 2px 0px #2763b8,
+            3px 3px 0px #2763b8;
     }
 }
 
